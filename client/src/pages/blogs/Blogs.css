@@ -1,0 +1,14 @@
+.blogs{
+    position: relative;
+}
+
+.header{
+    padding: 10% 0;
+    text-align: center;
+}
+
+.latest-blogs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

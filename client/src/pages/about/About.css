@@ -1,0 +1,39 @@
+.about{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 115px);
+    text-align: center;
+    justify-content: space-between;
+    background-color: #fff6ef;
+}
+
+.socialMediaIcons{
+    justify-content: center;
+}
+
+.aboutUs p{
+    margin: 10px 50px;
+}
+
+.followUs{
+    font-weight: 600;
+}
+
+.socialIcon{
+    color: #ffc497;
+    padding: 0 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.socialIcon:nth-child(1):hover{
+    color: rgb(72, 72, 255);
+}
+
+.socialIcon:nth-child(2):hover{
+    color: palevioletred;
+}
+
+.socialIcon:nth-child(3):hover{
+    color: rgb(27, 27, 189);
+}

@@ -1,0 +1,63 @@
+.blog{
+    width: 385px;
+    margin: 0 25px 40px 25px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.blog:hover{
+    background-color: #ffe7c1;
+}
+
+.postImg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postCat{
+    font-size: 11px;
+    color: #86642e;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.postTitle{
+    color: #444;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.postTitle:hover{
+    color: #be9656;
+}
+
+.postDate{
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    margin-top: 15px;
+}
+
+.postDesc{
+    font-size: 15px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

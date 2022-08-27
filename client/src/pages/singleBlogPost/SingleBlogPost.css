@@ -1,0 +1,117 @@
+.singlePostWrapper {
+    padding: 20px;
+    background-color: #fff6ef;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePostImg{
+    display: flex;
+    margin: auto;
+    /* margin-top: 10%; */
+    width: 80%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singlePostTitle{
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+}
+
+.singlePostTitleInput{
+    margin: 10px;
+    font-size: 28px;
+    background-color: #fff6ef;
+    border: none;
+    border-bottom: 1px solid #ffb781;
+}
+
+.singlePostTitleInput:focus{
+    outline: none;
+    border: none;
+    background-color: #fff6ef;
+    border-bottom: 1px solid #ffb781;
+}
+
+.details{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.singlePostAuthor{
+    cursor: pointer;
+}
+
+.singlePostAuthor img{
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.singlePostEdit{
+    float: right;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.singlePostEdit .singlePostIcon{
+    border: none;
+    background-color: #fff6ef;
+    margin: 10px 0 0 20px;
+    font-weight: 600;
+}
+
+.singlePostIcon:hover{
+    color: #ffb781;
+}
+
+/* .singlePostInfo{
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+} */
+
+.singlePostWrapper .singlePostDesc{
+    margin: 10px 80px;
+}
+
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.singlePostDescInput{
+    background-color: #fff6ef;
+    border: none;
+    border-bottom: 1px solid #ffb781;
+
+}
+
+.singlePostDescInput:focus{
+    outline: none;
+    background-color: #fff6ef;
+    border: none;
+    border-bottom: 1px solid #ffb781;
+}
+
+.singlePostBtn{
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(28, 166, 166);
+    padding: 5px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+}

@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.app{
+    height: 100vh;
+    background-color: #fff6ef;
+}
